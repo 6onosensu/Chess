@@ -1,0 +1,26 @@
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    width: 410px;
+    position: inherit;
+    background-color: beige;
+    padding: 10px;
+    color: beige;
+    border: 1em solid black;
+}
+
+.grid-item {
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    
+}
+
+.white {
+    background-color: white;
+}
+
+.black {
+    background-color: black;
+}
