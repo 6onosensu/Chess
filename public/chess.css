@@ -1,26 +1,66 @@
 
+
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto auto;
-    width: 410px;
+    width: 400px;
     position: inherit;
-    background-color: beige;
+    background-color: rgb(150, 150, 93);
     padding: 10px;
-    color: beige;
     border: 1em solid black;
 }
 
 .grid-item {
-    border: 1px solid black;
     width: 50px;
     height: 50px;
-    
+    background-position: center; /* center for figure*/
+    background-size: contain;
 }
+
 
 .white {
     background-color: white;
 }
 
 .black {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
+}
+
+.b-pawn {
+    background-image: url(ChessPieces/blackPawn.png);
+}
+.b-bishop {
+    background-image: url(ChessPieces/blackBishop.png);
+}
+.b-knight {
+    background-image: url(ChessPieces/blackKnight.png);
+}
+.b-rook {
+    background-image: url(ChessPieces/blackRook.png);
+}
+.b-king {
+    background-image: url(ChessPieces/blackKing.png);
+}
+.b-queen {
+    background-image: url(ChessPieces/blackQueen.png);
+}
+
+
+.w-pawn {
+    background-image: url(ChessPieces/whitePawn.png);
+}
+.w-bishop {
+    background-image: url(ChessPieces/whiteBishop.png);
+}
+.w-knight {
+    background-image: url(ChessPieces/whiteKnight.png);
+}
+.w-rook {
+    background-image: url(ChessPieces/whiteRook.png);
+}
+.w-king {
+    background-image: url(ChessPieces/whiteKing.png);
+}
+.w-queen {
+    background-image: url(ChessPieces/whiteQueen.png);
 }
